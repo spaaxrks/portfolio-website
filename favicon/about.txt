@@ -1,0 +1,17 @@
+This favicon was generated using the following font: 
+
+
+Font Family: Galada
+
+Font Full Name: Galada Regular
+
+Font Designer: Latin by Pablo Impallari, Bengali by Jeremie Hornus, Yoann Minet, and Juan Bruce (www.black-foundry.com)
+
+Font Source: https://fonts.gstatic.com/s/galada/v18/H4cmBXyGmcjXlUX-8iw-4Lqggw.ttf
+
+Font License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at http://scripts.sil.org/OFL (http://scripts.sil.org/OFL)
+
+Font Manufacturer: black foundry (www.black-foundry.com)
+
+Font Version:Version 1.261;PS 1.261;hotconv 1.0.86;makeotf.lib2.5.63406
+
