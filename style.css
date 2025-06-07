@@ -18,8 +18,9 @@ body *{
     padding: 0px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: rgb(32, 31, 31);
-    height: 75px;
+    height: 60px;
     
     position: fixed;
     z-index: 100;
@@ -65,6 +66,7 @@ body *{
     height: 100%;
     position: relative;
     color: white;
+    flex-wrap: wrap;
     
 }
 
@@ -93,6 +95,7 @@ body *{
     justify-content:flex-start;
     
     
+    
 }
 .buttons a{
     text-decoration: none;
@@ -107,6 +110,7 @@ body *{
     margin-right: 15px;
     color:white;
     border: 1px solid #ffffff;
+    border-radius: 5px;
 
 }
 .two{
@@ -114,6 +118,7 @@ body *{
     color: #fafafa;
     font-weight: bold;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 
@@ -147,6 +152,7 @@ body *{
     color: white;
     height: 100%;
     position: relative;
+    flex-wrap: wrap;
     
 }
 .startingqoutes{
@@ -195,11 +201,12 @@ body *{
 
 
 .thirdpage{
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
     padding-top: 70px;
     height: 100%;
     color: white;
+    flex-wrap: wrap;
 }
 .projecttext{
     display: flex;
@@ -216,41 +223,37 @@ body *{
     justify-content: center;
     align-items: center;
     height: 90%;
+    gap: 150px; /* clean spacing instead of manual margins */
+    width: 100%;
+    padding: 40px 0;
 } 
-.box1{
+.boxes{
     background-color:rgb(32, 31, 31);
-    margin-right: 100px;
+    /* margin-right: 100px; */
     padding: 50px;
-}
-.box2{
-    background-color:rgb(32, 31, 31);
-    padding: 50px;
-    margin-right: 100px;
-}
-.box3{
-    background-color:rgb(32, 31, 31);
-    margin-right: 100px;
-    padding: 50px;
+    text-align: center;
+    width: 320px; /* control size */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    
 }
 
-.box1:hover{
+.boxes a{
+    text-decoration: none;
+    color:white;
+}
+
+.boxes:hover{
     transform: scale(1.1);
     background-color: antiquewhite;
-    color: black;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-.box2:hover{
-    transform: scale(1.1);
-    background-color: antiquewhite;
-    color: black;
-    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+.boxes:hover a{                        /*important as boxes:hover a means if hover over box we must change the a tag*/
+    color:#f300b4; 
 }
-.box3:hover{
-    transform: scale(1.1);
-    background-color: antiquewhite;
-    color: black;
-    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
-}
+
 
 
 
@@ -261,11 +264,13 @@ body *{
     height: 60%;
     background-color: rgb(32, 31, 31);
     color: white;
+    flex-wrap: wrap;
 }
 /* .text{
     padding-left: 70px;
     padding-top: 30px;
 } */
+ 
 
 .container{
 
@@ -340,3 +345,9 @@ button[type=submit]:hover {
     color: white;
     
   } */
+
+
+  @media only screen and (max-width: 600px){
+    .firstpage{
+        
+  }
